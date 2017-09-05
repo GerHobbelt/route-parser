@@ -35,7 +35,7 @@
     "test": "mocha && karma start --singleRun",
     "test-node": "mocha",
     "test-client": "karma start --singleRun",
-    "compile-parser": "scripts/compile_parser.js",
+    "compile-parser": "node scripts/compile_parser.js",
     "clean-compile": "rm ./lib/route/compiled-grammar.js",
     "lint": "eslint ."
   },
